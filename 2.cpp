@@ -11,7 +11,7 @@ int main() {
 	long double g = 45.2123123;
 	int h[3] = { 3,5,7 };
 	cout << &a << ' ' << &a - sizeof(a) << endl;
-	cout << &b << ' ' << &b - sizeof(b) << endl;//ôèêñèðîâàííàÿ ðàçíèöà, ðàâíàÿ 10(16).
+	cout << &b << ' ' << &b - sizeof(b) << endl;//Ñ„Ð¸ÐºÑÐ¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ Ñ€Ð°Ð·Ð½Ð¸Ñ†Ð°, Ñ€Ð°Ð²Ð½Ð°Ñ 10(16).
 	cout << &c << ' ' << &c - sizeof(c) << endl;
 	cout << &d << ' ' << &d - sizeof(d) << endl;
 	cout << &e << ' ' << &e - sizeof(e) << endl;
