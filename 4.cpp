@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int n; //ôèêñèðîâàííàÿ ðàçíèöà, ðàâíàÿ 16(10).
+	int n; //Ñ„Ð¸ÐºÑÐ¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ Ñ€Ð°Ð·Ð½Ð¸Ñ†Ð°, Ñ€Ð°Ð²Ð½Ð°Ñ 16(10).
 	cin >> n;
 	string* a = new string[n];
 	for (int i = 0; i < n; i++)
